@@ -9,6 +9,6 @@
 
 @layer base {
   li{
-    @apply px-4 text-white font-bold text-xs  cursor-move
+    @apply px-4 text-white font-bold text-xs  cursor-pointer
   }
 }

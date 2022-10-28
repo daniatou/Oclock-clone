@@ -33,17 +33,18 @@ export const Header = () => {
                         <ArrowLeftIcon className='w-4 ' />
                         <button className='border-none font-bold text-sm px-3  '>RETOUR</button>
                     </div>
-                    <div className='flex flex-col text-white ' onClick={handleClick}>
+                    <div className='flex flex-col text-white cursor-pointer ' onClick={handleClick}>
                         {!nav ? <div> <small className='text-[10px] pl-1 font-bold tracking-widest '>MENU</small><Bars3Icon className='w-10 ' /></div> : <XMarkIcon className='w-10' />}
                     </div>
                 </div>
-                <ul className={!nav ? 'hidden' : 'absolute bg-primary w-full m-auto p-3 text-center  mdx:hidden '}>
+                <ul className={!nav ? 'hidden' : 'absolute bg-primary w-full p-3 text-center  mdx:hidden '}>
                     <li className='p-6 text-2xl uppercase tracking-widest'>Accueil</li>
                     <li className='p-6 text-2xl uppercase tracking-widest'>La Méthode</li>
                     <li className='p-6 text-2xl uppercase tracking-widest'>• Les Formations •</li>
                     <li className='p-6 text-2xl uppercase tracking-widest'>LA TEAM</li>
                     <li className='p-6 text-2xl uppercase tracking-widest'>Le BLOG</li>
                     <li className='p-6 text-2xl uppercase tracking-widest'>ESPACE ENTREPRISES</li>
+                    <li><button className='border-2 border-white w-[70%] px-6 py-3 rounded-full cursor-pointer'>JE M'INSCRIS</button></li>
                 </ul>
 
             </div>
