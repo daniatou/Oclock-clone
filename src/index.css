@@ -8,7 +8,22 @@
 }
 
 @layer base {
-  li{
-    @apply px-4 text-white font-bold text-xs  cursor-pointer
+  li {
+    @apply px-4 text-white font-bold text-xs cursor-pointer
+  }
+
+  button {
+    @apply border-2 border-white rounded-full cursor-pointer bg-primary font-bold
+  }
+
+  .formation-item {
+    cursor: pointer;
+  }
+
+  .formation-item:hover button {
+    width: auto;
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
   }
 }
