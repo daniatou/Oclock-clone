@@ -3,6 +3,7 @@ import { Formations } from './components/Formations';
 import { Header } from './components/Header';
 import { About } from './components/About';
 import { Testimonies } from './components/Testimonies';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Formations />
       <About />
       <Testimonies  />
+      <Footer  />
     </>
 
   );

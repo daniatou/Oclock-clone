@@ -57,4 +57,11 @@
 
   }
 
+  .footer-container ul li {
+    font-weight: 200;
+    font-size: 1em;
+    padding: 8px;
+    text-transform: capitalize;
+  }
+
 }

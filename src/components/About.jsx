@@ -23,11 +23,11 @@ export const About = () => {
                         <img className='w-full mb-4  mt-6 mdx:ml-[7em]' src={slack} alt="Communauté" />
                     </div>
                 </div>
-                <div className='pedagogie flex flex-col my-8 '>
+                <div className='pedagogie flex flex-col mdx:flex-row my-8 '>
                     <div className='pedagogie_img flex-none mdx:w-[50%] '>
                         <img className='w-full mb-4   mdx:ml-[-7em] rounded-xl' src={formateurs} alt="formateurs" />
                     </div>
-                    <div className='pedagogie_decription font-extralight mt-6 text-xl mdx:w-[50%] leading-relaxed'>
+                    <div className='pedagogie_decription font-extralight mt-2 text-xl mdx:w-[50%] leading-relaxed'>
                         <p >Les formateurs, quant à eux, sont focalisés sur la réussite des étudiants. Ils les ont découverts pendant le chemin vers O’ clock, accueillis et préparés à la rentrée. Ils les forment, suivent leur progression et les conseillent sur leurs futures carrières.</p>
                         <p className='py-3'>
                             En somme, les formateurs connaissent leurs étudiants, et ça change tout. Cet échange constant permet de créer un lien fort au sein de la classe. Cette complicité entre les étudiants et l’équipe pédagogique n’est pas accessoire, elle permet d’instaurer une ambiance bienveillante, nécessaire à un apprentissage fructueux. Quand on est heureux, on apprend beaucoup mieux.
