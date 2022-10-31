@@ -16,6 +16,8 @@
     @apply border-2 border-white rounded-full cursor-pointer bg-primary font-bold
   }
 
+/* --------------formation component---------------- */
+
   .formation-item {
     cursor: pointer;
   }
