@@ -16,7 +16,7 @@
     @apply border-2 border-white rounded-full cursor-pointer bg-primary font-bold
   }
 
-/* --------------formation component---------------- */
+  /* --------------formation component---------------- */
 
   .formation-item {
     cursor: pointer;
@@ -28,4 +28,33 @@
     transition-duration: 0.5s;
     transition-timing-function: ease-out;
   }
+
+  /* --------------Testimonies component---------------- */
+
+  .student-item blockquote::before{
+    content:  "“ ";
+    display: block;
+    color: var(--primary);
+    font-size: 5em;
+    font-weight: 600;
+    opacity: .25;
+    position: absolute;
+    top: -70%;
+    left: -20px;
+
+  }
+  .student-item blockquote::after{
+    content: " ”";
+    display: block;
+    color: var(--primary);
+    font-size: 5em;
+    font-weight: 600;
+    opacity: .25;
+    position: absolute;
+    right: -5%;
+    top: 70%;
+   
+
+  }
+
 }

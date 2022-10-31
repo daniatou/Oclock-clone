@@ -23,7 +23,7 @@ export const About = () => {
                         <img className='w-full mb-4  mt-6 mdx:ml-[7em]' src={slack} alt="Communauté" />
                     </div>
                 </div>
-                <div className='pedagogie flex my-8 '>
+                <div className='pedagogie flex flex-col my-8 '>
                     <div className='pedagogie_img flex-none mdx:w-[50%] '>
                         <img className='w-full mb-4   mdx:ml-[-7em] rounded-xl' src={formateurs} alt="formateurs" />
                     </div>
@@ -38,8 +38,8 @@ export const About = () => {
                     <div className='flex justify-center my-6'>
                         <img src={satelite} alt="" />
                     </div>
-                    <h3 className=' text-2xl font-bold '>POUR CE FAIRE,</h3>
-                    <h3 className=' text-2xl font-bold '>TROIS CANAUX DE COMMUNICATION</h3>
+                    <h3 className=' mdx:text-2xl font-bold '>POUR CE FAIRE,</h3>
+                    <h3 className=' mdx:text-2xl font-bold '>TROIS CANAUX DE COMMUNICATION</h3>
                     <p className='my-8'>
                         Le Cockpit, la plateforme en ligne où s’organisent les cours. Slack, où chaque promotion d’étudiants peut parler cours, challenge ou ce qu’ils ont mangé à midi. Et enfin, Discord, qui réunit toute la communauté : anciens, actuels et futurs étudiants, mais aussi les petits curieux souhaitant se renseigner sur l’école.
                     </p>
