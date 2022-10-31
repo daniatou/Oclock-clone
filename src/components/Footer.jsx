@@ -1,9 +1,11 @@
 import React from 'react'
+import logo from '../assets/logo-full.svg'
+import { ArrowRightIcon } from '@heroicons/react/24/outline'
 
 export const Footer = () => {
     return (
         <div className='footer-container bg-black text-secondary p-8 '>
-            <div className='flex flex-col mdx:flex-row space-y-10 h-full justify-center mdx:space-x-10 mb-6 pb-6 border-b-[1px] border-secondary'>
+            <div className='flex flex-col mdx:flex-row space-y-10 mdx:space-y-0 h-full justify-center mdx:space-x-10 mb-6 pb-6 border-b-[1px] border-secondary'>
                 <ul className='px-6'>
                     <li>Rentre à la maison</li>
                     <li>Le téléprésentiel</li>
@@ -35,7 +37,18 @@ export const Footer = () => {
                     </form>
                 </div>
             </div>
-          
+            <div className='flex flex-col mdx:flex-row  justify-center'>
+                <div className='max-w-[20em]'>
+                    <img src={logo} alt="" />
+                </div>
+                {/* <nav>
+                    <div className='flex contact '>
+                        <span>CONTACTEZ NOUS</span> <ArrowRightIcon className='w-6 contact-arrow animate-bounce ' />
+                    </div>
+
+                </nav> */}
+            </div>
+
         </div>
     )
 }

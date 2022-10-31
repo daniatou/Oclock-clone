@@ -63,5 +63,8 @@
     padding: 8px;
     text-transform: capitalize;
   }
-
+  .contact-arrow {
+   transform: translateX(20px);
+  animation: name duration timing-function delay iteration-count direction fill-mode;
+  }
 }
